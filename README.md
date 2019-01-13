@@ -5,7 +5,8 @@ This is my first Angular Website App Project.
 
 # Notes: 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
-- Started as part of the quick start tutorial: https://angular.io/guide/quickstart
+- Started as part of the quick start tutorial: [Angular QuickStart](https://angular.io/guide/quickstart)
+- Project is now my version of the [Tour of Heros Tutorial](https://angular.io/tutorial)
 
 # Journal: 
 - 2019.01.12 Created initial project and Updated README.md
