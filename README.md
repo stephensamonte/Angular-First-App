@@ -10,6 +10,7 @@ This is my first Angular Website App Project.
 
 # Journal: 
 - 2019.01.12 Created initial project and Updated README.md
+- 2019.01.13 Added heroes component with terminal command: '$ ng generate component heroes'
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
