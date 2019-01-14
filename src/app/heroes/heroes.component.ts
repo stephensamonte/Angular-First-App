@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+// importing Hero type 
+import { Hero } from '../hero';
+
 /** @Component is a decorator function that specifies the Angular metadata for the component. */ 
 @Component({
   // selector— the component's CSS element selector
@@ -11,9 +14,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroesComponent implements OnInit {
 
+  // hero = 'Windstorm';
+  // Object of type Hero named hero
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
+
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+
