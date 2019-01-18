@@ -48,10 +48,11 @@
   </li>
 </ul>
 
-<!-- Show hero details if selectedHero is exists -->
-<div *ngIf="selectedHero">
+<!-- Show hero details if selectedHero is exists 
+   display selected hero details
+-->
+<!-- <div *ngIf="selectedHero">
 
-  <!-- display selected hero details -->
   <h2>{{selectedHero.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selectedHero.id}}</div>
   <div>
@@ -60,4 +61,11 @@
     </label>
   </div>
   
-</div>
+</div> -->
+
+<!-- Delegate detail view. Supply Hero to detail view one way binding
+  from heros to hero-detail.
+  [hero]="selectedHero" is an Angular property binding.
+  https://angular.io/guide/template-syntax#property-binding
+-->
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
