@@ -16,6 +16,12 @@ This is my first Angular Website App Project.
 Use the Angular CLI to generate a new component named hero-detail.
 `ng generate component hero-detail`
 
+## Create a new service 
+Services are a great way to share information among classes that don't know each other. You'll create a MessageService and inject it in two places:
+1) in HeroService which uses the service to send a message.
+2) in MessagesComponent which displays that message.
+`ng generate service hero`
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
