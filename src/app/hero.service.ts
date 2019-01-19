@@ -37,4 +37,12 @@ export class HeroService {
     // that emits a single value, the array of mock heroes.
     return of(HEROES);
   }
+
+  // Get a single hero by id
+  getHero(id: number): Observable<Hero> {
+    // TODO: send the message _after_ fetching the hero
+    // The backticks (`) that define a JavaScript template literal for embedding the id.
+    this.messageService.add(`HeroService: fetched hero id=${id}`);
+    return of(HEROES.find(hero => hero.id === id));
+  }
 }
