@@ -1,12 +1,15 @@
 
 # AngularFirstApp
-This is my first Angular Website App Project. And am following the Tutorial found on the Angular website. "The Tour of Heroes tutorial covers the fundamentals of Angular.In this tutorial you will build an app that helps a staffing agency manage its stable of heroes."
+This is my first Angular Website App Project which I use as a quick reference when developing Angular websites. 
+
+This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
+
+"The Tour of Heroes tutorial covers the fundamentals of Angular.In this tutorial you will build an app that helps a staffing agency manage its stable of heroes."
 
 # Environment: 
 - This is an Angular app. Follow this setup: [Angular Quick Start](https://angular.io/guide/quickstart)
 
 # Notes: 
-- I am following the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 - Started as part of the quick start tutorial: [Angular QuickStart](https://angular.io/guide/quickstart)
 - Project is now my version of the [Tour of Heros Tutorial](https://angular.io/tutorial)
@@ -18,7 +21,7 @@ This is my first Angular Website App Project. And am following the Tutorial foun
 - 2019.01.17 Created master/detail component
 - 2019.01.18 Created services to provide the data to mimic server request and added message item component with a service. [Showcase](https://www.youtube.com/watch?v=aQ7NIlKSCIw&feature=youtu.be)
 - 2019.01.19 Added Routing Module [Showcase](https://www.youtube.com/watch?v=sL8LLgAuqms)
-- 2019.01.19 Added Dashboard and routing to detail and heros list
+- 2019.01.19 Added Dashboard and routing to detail and heros list. [Showcase](https://www.youtube.com/watch?v=InQdA77K6fE&feature=youtu.be)
  
 
 ## Creaate a new hero component
