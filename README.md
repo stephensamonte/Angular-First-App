@@ -16,7 +16,7 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 
 # Journal: 
 - 2019.01.12 Created initial project and Updated README.md
-- 2019.01.13 Added heroes component with terminal command: '$ ng generate component heroes'
+- 2019.01.13 Added heroes component with terminal command: `ng generate component heroes`
 - 2019.01.16 Display a list 
 - 2019.01.17 Created master/detail component
 - 2019.01.18 Created services to provide the data to mimic server request and added message item component with a service. [Showcase](https://www.youtube.com/watch?v=aQ7NIlKSCIw&feature=youtu.be)
