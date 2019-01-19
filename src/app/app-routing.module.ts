@@ -7,12 +7,28 @@ import { RouterModule, Routes } from '@angular/router';
 // Heroes component
 import { HeroesComponent }      from './heroes/heroes.component';
 
+// Dasboard component
+import { DashboardComponent }   from './dashboard/dashboard.component';
+
+// Hero detail component
+import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
+
 // Routes tell the router which view to display when a user clicks a link or pastes a URL into the browser address bar.
 // A typical Angular Route has two properties:
 // path: a string that matches the URL in the browser address bar.
 // component: the component that the router should create when navigating to this route.
 const routes: Routes = [
-  { path: 'heroes', component: HeroesComponent }
+
+  // default route to navigate to dashboard automatically
+  // This route redirects a URL that fully matches the empty path to the route whose path is '/dashboard'.
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+
+  { path: 'heroes', component: HeroesComponent }, 
+  { path: 'dashboard', component: DashboardComponent },
+  
+  // The colon (:) in the path indicates that :id is a placeholder for a specific hero id.
+  { path: 'detail/:id', component: HeroDetailComponent },
+  
 ];
 
 @NgModule({

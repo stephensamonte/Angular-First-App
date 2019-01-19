@@ -36,7 +36,8 @@ export class HeroesComponent implements OnInit {
   heroes: Hero[];
 
   // create selected hero property 
-  selectedHero: Hero;
+  // not needed with routing
+  // selectedHero: Hero;
 
   // constructor() { }
   /**
@@ -54,10 +55,11 @@ export class HeroesComponent implements OnInit {
   }
 
   // Function called when a hero in the list is selected
-  onSelect(hero: Hero): void {
-    // Set selected hero
-    this.selectedHero = hero;
-  }
+  // Not needed with routing
+  // onSelect(hero: Hero): void {
+  //   // Set selected hero
+  //   this.selectedHero = hero;
+  // }
 
   // retrieve the heroes from the service.
   // getHeroes(): void {

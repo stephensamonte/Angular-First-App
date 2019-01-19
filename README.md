@@ -18,6 +18,7 @@ This is my first Angular Website App Project. And am following the Tutorial foun
 - 2019.01.17 Created master/detail component
 - 2019.01.18 Created services to provide the data to mimic server request and added message item component with a service. [Showcase](https://www.youtube.com/watch?v=aQ7NIlKSCIw&feature=youtu.be)
 - 2019.01.19 Added Routing Module [Showcase](https://www.youtube.com/watch?v=sL8LLgAuqms)
+- 2019.01.19 Added Dashboard and routing to detail and heros list
  
 
 ## Creaate a new hero component
