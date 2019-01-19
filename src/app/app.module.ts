@@ -11,19 +11,38 @@ import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component'; 
 
+// to retrieve data via http requests 
+import { HttpClientModule }    from '@angular/common/http';
+
+// For the In-Memory Web API 
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
+
+
   // List of external modules the app needs 
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule // Added module 
+    AppRoutingModule, 
+    HttpClientModule,
+    
+    // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
+    // and returns simulated server responses.
+    // Remove it when a real server is ready to receive requests.
+    // The forRoot() configuration method takes an InMemoryDataService 
+    // class that primes the in-memory database.
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

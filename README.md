@@ -13,6 +13,7 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 - Started as part of the quick start tutorial: [Angular QuickStart](https://angular.io/guide/quickstart)
 - Project is now my version of the [Tour of Heros Tutorial](https://angular.io/tutorial)
+- This uses the [In-Memory Web API module](https://github.com/angular/in-memory-web-api) to mimic a remote server. 
 
 # Journal: 
 - 2019.01.12 Created initial project and Updated README.md
@@ -22,6 +23,7 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - 2019.01.18 Created services to provide the data to mimic server request and added message item component with a service. [Showcase](https://www.youtube.com/watch?v=aQ7NIlKSCIw&feature=youtu.be)
 - 2019.01.19 Added Routing Module [Showcase](https://www.youtube.com/watch?v=sL8LLgAuqms)
 - 2019.01.19 Added Dashboard and routing to detail and heros list. [Showcase](https://www.youtube.com/watch?v=InQdA77K6fE&feature=youtu.be)
+- 2019.01.19 [pt6 Simulate a data server](https://angular.io/tutorial/toh-pt6)
  
 
 ## Creaate a new hero component
@@ -40,6 +42,10 @@ In Angular, the best practice is to load and configure the router in a separate,
 --module=app tells the CLI to register it in the imports array of the AppModule.
 `ng generate module app-routing --flat --module=app`
 
+## In-Memory Web Api Module 
+This uses the [In-Memory Web API module](https://github.com/angular/in-memory-web-api) to mimic a remote server. Use the following command to install the package from npm (it has nothing to do with Angular): 
+`npm install angular-in-memory-web-api --save`
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -57,3 +63,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# This content was from an Angular tutorial and I added comments to better understand the content. 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+
