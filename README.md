@@ -1,9 +1,12 @@
 
 # AngularFirstApp
-This is my first Angular Website App Project. 
+This is my first Angular Website App Project. And am following the Tutorial found on the Angular website. "The Tour of Heroes tutorial covers the fundamentals of Angular.In this tutorial you will build an app that helps a staffing agency manage its stable of heroes."
 
+# Environment: 
+- This is an Angular app. Follow this setup: [Angular Quick Start](https://angular.io/guide/quickstart)
 
 # Notes: 
+- I am following the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 - Started as part of the quick start tutorial: [Angular QuickStart](https://angular.io/guide/quickstart)
 - Project is now my version of the [Tour of Heros Tutorial](https://angular.io/tutorial)
@@ -25,6 +28,12 @@ Services are a great way to share information among classes that don't know each
 1) in HeroService which uses the service to send a message.
 2) in MessagesComponent which displays that message.
 `ng generate service hero`
+
+## Create Routing module
+In Angular, the best practice is to load and configure the router in a separate, top-level module that is dedicated to routing and imported by the root AppModule.
+--flat puts the file in src/app instead of its own folder.
+--module=app tells the CLI to register it in the imports array of the AppModule.
+`ng generate module app-routing --flat --module=app`
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
