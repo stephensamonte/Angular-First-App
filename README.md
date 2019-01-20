@@ -25,6 +25,7 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - 2019.01.19 Added Dashboard and routing to detail and heroes list. [Showcase](https://www.youtube.com/watch?v=InQdA77K6fE&feature=youtu.be)
 - 2019.01.19 [pt6 Simulate a data server](https://angular.io/tutorial/toh-pt6)
 - 2019.01.20 Added ability to save, add, and delete heroes [Showcase](https://www.youtube.com/watch?v=iAPn-4Vredw&feature=youtu.be)
+- 2019.01.20 Added Search box in Master View & Update CSS [Showcase](https://www.youtube.com/watch?v=uI6yrFRkqz0&feature=youtu.be)
 
 ## Creaate a new hero component
 Use the Angular CLI to generate a new component named hero-detail.
