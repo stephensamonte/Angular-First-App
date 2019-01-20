@@ -12,7 +12,7 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 # Notes: 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 - Started as part of the quick start tutorial: [Angular QuickStart](https://angular.io/guide/quickstart)
-- Project is now my version of the [Tour of Heros Tutorial](https://angular.io/tutorial)
+- Project is now my version of the [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - This uses the [In-Memory Web API module](https://github.com/angular/in-memory-web-api) to mimic a remote server. 
 
 # Journal: 
@@ -22,9 +22,9 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - 2019.01.17 Created master/detail component
 - 2019.01.18 Created services to provide the data to mimic server request and added message item component with a service. [Showcase](https://www.youtube.com/watch?v=aQ7NIlKSCIw&feature=youtu.be)
 - 2019.01.19 Added Routing Module [Showcase](https://www.youtube.com/watch?v=sL8LLgAuqms)
-- 2019.01.19 Added Dashboard and routing to detail and heros list. [Showcase](https://www.youtube.com/watch?v=InQdA77K6fE&feature=youtu.be)
+- 2019.01.19 Added Dashboard and routing to detail and heroes list. [Showcase](https://www.youtube.com/watch?v=InQdA77K6fE&feature=youtu.be)
 - 2019.01.19 [pt6 Simulate a data server](https://angular.io/tutorial/toh-pt6)
- 
+- 2019.01.20 Added ability to save, add, and delete heroes [Showcase](https://www.youtube.com/watch?v=iAPn-4Vredw&feature=youtu.be)
 
 ## Creaate a new hero component
 Use the Angular CLI to generate a new component named hero-detail.

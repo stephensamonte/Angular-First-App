@@ -17,6 +17,19 @@
 
 <!-- Heroes list -->
 <h2>My Heroes</h2>
+
+<!-- To add a hero, this app only needs the hero's name. 
+  You can use an input element paired with an add button. -->
+<div>
+  <label>Hero name:
+    <input #heroName />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(heroName.value); heroName.value=''">
+    add
+  </button>
+</div>
+
 <ul class="heroes"> 
   <!-- 
     The *ngFor is Angular's repeater directive. 
@@ -50,6 +63,10 @@
       <a routerLink="/detail/{{hero.id}}">
         <span class="badge">{{hero.id}}</span> {{hero.name}}
       </a>
+
+      <!-- Delete a  -->
+      <button class="delete" title="delete hero"
+      (click)="delete(hero)">x</button>
   </li>
 
 
