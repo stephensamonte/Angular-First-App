@@ -6,6 +6,8 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 
 "The Tour of Heroes tutorial covers the fundamentals of Angular.In this tutorial you will build an app that helps a staffing agency manage its stable of heroes."
 
+Deployed Project Website: https://stephensamonte.github.io/Angular-First-App/
+
 # Environment: 
 - This is an Angular app. Follow this setup: [Angular Quick Start](https://angular.io/guide/quickstart)
 
@@ -26,6 +28,10 @@ This is the Angular [Tour of Heroes Tutorial](https://angular.io/tutorial)
 - 2019.01.19 [pt6 Simulate a data server](https://angular.io/tutorial/toh-pt6)
 - 2019.01.20 Added ability to save, add, and delete heroes [Showcase](https://www.youtube.com/watch?v=iAPn-4Vredw&feature=youtu.be)
 - 2019.01.20 Added Search box in Master View & Update CSS [Showcase](https://www.youtube.com/watch?v=uI6yrFRkqz0&feature=youtu.be)
+
+# References
+- [Angular Website Deployment](https://angular.io/guide/deployment)
+- [Publishing your GitHub Pages site from a /docs folder on your master branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch)
 
 ## Creaate a new hero component
 Use the Angular CLI to generate a new component named hero-detail.
@@ -53,8 +59,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build & Deploy Website with GitHub Pages
+
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+To build the website for hosting use: `ng build --prod --output-path docs --base-href https://stephensamonte.github.io/Angular-First-App/`
+
+- When publishing don't forget to add a 404.html page which is just a renamed index.html file
 
 ## Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
